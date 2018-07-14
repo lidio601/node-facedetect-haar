@@ -1,0 +1,19 @@
+{
+  "name": "camera-wrapper",
+  "version": "0.1.0",
+  "description": "A face detection library for node.js using OpenCV",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/**/*.js",
+    "install": "node-gyp rebuild"
+  },
+  "author": "Fabio Cigliano <fabio.cigliano@gmail.com> (http://fabio.cigliano.name)",
+  "license": "ISC",
+  "gypfile": true,
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "tape": "^4.9.1"
+  }
+}
